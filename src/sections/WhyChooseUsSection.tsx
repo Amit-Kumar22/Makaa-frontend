@@ -104,7 +104,7 @@ export default function WhyChooseUsSection() {
           )}
 
           {/* ── Stats (static — design must not change) ── */}
-          <div className="border-t border-slate-200 pt-4">
+          {/* <div className="border-t border-slate-200 pt-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
               <div>
                 <h3 className="text-xl md:text-2xl font-bold text-accent-600">50+</h3>
@@ -126,7 +126,7 @@ export default function WhyChooseUsSection() {
                 Serving clients across 50+ countries with trusted export solutions.
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>

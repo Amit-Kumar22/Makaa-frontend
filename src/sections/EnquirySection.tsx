@@ -275,8 +275,8 @@ export default function EnquirySection() {
 
             <div className="mt-8 rounded-lg bg-black/10 p-4">
               <p className="text-sm uppercase tracking-[0.3em] text-white/70">Contact</p>
-              <p className="mt-4 text-lg font-semibold">+91 98765 43210</p>
-              <p className="text-white/80">info@makka.com</p>
+              <p className="mt-4 text-lg font-semibold">+91 9818205383</p>
+              <p className="text-white/80">info@sisharglobal.com</p>
               <p className="mt-4 text-white/80">Premium maize supply for feed, food and industrial production.</p>
             </div>
           </motion.div>
