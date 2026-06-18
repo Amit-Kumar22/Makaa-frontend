@@ -74,4 +74,3 @@ See `.env.local` for configuration options.
 ## License
 
 Private Project
-# Makaa-frontend
