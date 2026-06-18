@@ -76,7 +76,7 @@ export default function Footer() {
             <Link href="/" className="inline-block">
               <Image
                 src="/logo.png"
-                alt="Makka — Premium Maize Supplier"
+                alt="SISHAR Global Pvt. Ltd."
                 width={250}
                 height={100}
                 className="h-14 w-auto object-contain brightness-0 invert"
@@ -211,7 +211,7 @@ export default function Footer() {
             <Link href="/" className="opacity-70 hover:opacity-100 transition">
               <Image
                 src="/logo.png"
-                alt="Makka"
+                alt="SISHAR Global Pvt. Ltd."
                 width={100}
                 height={36}
                 className="h-7 w-auto object-contain brightness-0 invert"

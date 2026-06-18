@@ -189,7 +189,7 @@ export default function ContactManagement() {
                     value={formData.socialMedia?.[platform as keyof typeof formData.socialMedia] || ''}
                     onChange={handleChange}
                     className="w-full px-4 py-2 border border-dark-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
-                    placeholder={`https://${platform}.com/makka`}
+                    placeholder={`https://${platform}.com/SISHAR Global Pvt. Ltd.`}
                   />
                 </div>
               ))}

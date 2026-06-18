@@ -240,7 +240,7 @@ export default function EnquirySection() {
             className="rounded-lg bg-gradient-to-br from-primary-600 to-accent-500 p-6 text-white shadow-2xl"
           >
             <div className="mb-8">
-              <p className="text-sm uppercase tracking-[0.3em] text-white/80">Why connect with Makka?</p>
+              <p className="text-sm uppercase tracking-[0.3em] text-white/80">SISHAR Global Pvt. Ltd. ?</p>
               <h3 className="mt-3 text-2xl font-bold">Fast Support, Premium Supply</h3>
             </div>
             <div className="space-y-6 text-sm leading-7">

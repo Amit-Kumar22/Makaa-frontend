@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 import MainLayout from '@/components/MainLayout';
 
 export const metadata: Metadata = {
-  title: 'Makka - Premium Maize Supplier',
+  title: 'SISHAR Global Pvt. Ltd.',
   description: 'Premium Quality Maize for Feed, Food Processing & Industrial Applications',
   keywords: 'maize, corn, feed, agricultural, premium quality',
   openGraph: {
-    title: 'Makka - Premium Maize Supplier',
+    title: 'SISHAR Global Pvt. Ltd.',
     description: 'Premium Quality Maize for Feed, Food Processing & Industrial Applications',
     type: 'website',
   },

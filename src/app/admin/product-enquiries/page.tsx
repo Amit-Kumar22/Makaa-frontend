@@ -46,7 +46,7 @@ function DetailModal({ enquiry, onClose, onUpdate }: DetailModalProps) {
 
   const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919818205383';
   const whatsappMsg = encodeURIComponent(
-    `Hello ${enquiry.userName},\n\nThank you for your interest in *${enquiry.productName}*.\n\nWe have received your enquiry and will share complete details shortly.\n\nRegards,\nMakka Team`
+    `Hello ${enquiry.userName},\n\nThank you for your interest in *${enquiry.productName}*.\n\nWe have received your enquiry and will share complete details shortly.\n\nRegards,\nSISHAR Global Pvt. Ltd. Team`
   );
 
   const handleSave = async () => {

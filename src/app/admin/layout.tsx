@@ -4,8 +4,8 @@ import { Toaster } from 'react-hot-toast';
 import AdminSidebar from '@/components/admin/AdminSidebar';
 
 export const metadata: Metadata = {
-  title: 'Admin Dashboard - Makka',
-  description: 'Admin Dashboard for Makka Maize Business',
+  title: 'Admin Dashboard - SISHAR Global Pvt. Ltd.',
+  description: 'Admin Dashboard for SISHAR Global Pvt. Ltd.',
 };
 
 export default function AdminLayout({
@@ -26,7 +26,7 @@ export default function AdminLayout({
         reverseOrder={false}
         gutter={8}
         toastOptions={{
-          duration: 4000,
+          duration: 3000,
           style: {
             background: '#fff',
             color: '#000',

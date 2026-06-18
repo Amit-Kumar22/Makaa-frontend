@@ -151,7 +151,7 @@ export default function ContactSection() {
 
             <div>
               <h4 className="font-semibold text-dark-900 text-lg">Email</h4>
-              <p className="text-dark-600">{contact?.email || 'info@makka.com'}</p>
+              <p className="text-dark-600">{contact?.email || 'info@sisharglobal.com'}</p>
               <p className="text-xs text-dark-500 mt-1">Response within 24 hours</p>
             </div>
           </div>

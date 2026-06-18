@@ -41,7 +41,7 @@ export default function AdminSidebar() {
       sessionStorage.removeItem('adminToken');
       sessionStorage.removeItem('adminUser');
     }
-    router.replace('/login');
+    router.replace('/');
   };
 
   const menuItems = [
@@ -70,30 +70,31 @@ export default function AdminSidebar() {
       <motion.aside
         initial={{ x: -300 }}
         animate={{ x: isOpen ? 0 : 0 }}
-        className={`${isOpen ? 'fixed' : 'hidden'
-          } lg:relative lg:block w-64 bg-dark-900 text-white h-screen flex flex-col z-40 transition-all duration-300 ${isCollapsed ? 'lg:w-20' : 'lg:w-64'
-          }`}
+        className={`${
+          isOpen ? 'fixed inset-y-0 left-0' : 'hidden'
+        } lg:relative lg:flex ${isCollapsed ? 'lg:w-20' : 'lg:w-64'} w-64 bg-dark-900 text-white h-screen flex-col z-40`}
       >
         {/* Logo */}
-        <div className="p-6 border-b border-dark-700 flex items-center justify-between">
+        <div className="flex-shrink-0 p-6 border-b border-dark-700 flex items-center justify-between">
           {!isCollapsed && (
-            <Link href="/admin/dashboard" className="text-2xl font-bold text-primary-400">
-              Makka
+            <Link href="/admin/dashboard" className="text-xl font-bold text-primary-400 leading-tight">
+              SISHAR Global Pvt. Ltd.
             </Link>
           )}
         </div>
 
         {/* Menu Items */}
-        <nav className="flex-1 p-4 space-y-2 overflow-y-auto">
+        <nav className="flex-1 min-h-0 p-4 space-y-2 overflow-y-auto">
           {menuItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={() => setIsOpen(false)}
-              className={`flex items-center gap-3 px-4 py-3 rounded-lg transition ${isActive(item.href)
+              className={`flex items-center gap-3 px-4 py-3 rounded-lg transition ${
+                isActive(item.href)
                   ? 'bg-primary-600 text-white'
                   : 'text-dark-300 hover:bg-dark-800'
-                }`}
+              }`}
             >
               <item.icon size={20} />
               {!isCollapsed && <span>{item.label}</span>}
@@ -102,7 +103,7 @@ export default function AdminSidebar() {
         </nav>
 
         {/* Logout */}
-        <div className="p-4 border-t border-dark-700">
+        <div className="flex-shrink-0 p-4 border-t border-dark-700">
           <button
             onClick={handleLogout}
             className="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-red-400 hover:bg-dark-800 transition"
